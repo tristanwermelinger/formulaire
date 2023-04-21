@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .querySelector("#formContact")
     .addEventListener("submit", async (event) => {
       event.preventDefault();
+
       console.log("submit", event);
 
       const data = {
